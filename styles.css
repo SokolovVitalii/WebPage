@@ -12,7 +12,6 @@ body {
 }
 /* HEADER BLOCK */
 header {
-    border: 1px solid yellow;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.93);
     display: block;
@@ -20,7 +19,6 @@ header {
     align-items: center;
 }
 .logo-keeper{
-    border: 1px solid red;
     background: url('./images/logo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -40,7 +38,6 @@ header {
     margin-bottom:153px;
 }
 .nav-item {
-    border: 1px solid red;
 }
 .middle-item {
     padding-left: 47px;
@@ -61,9 +58,7 @@ header {
 
 /* MAIN CONTENT BLOCK */
 .main-box {
-    background-color: rgba(0, 0, 0, 0.93);
     width: 100%;
-    border: 1px solid brown;
 }
 /* UPPER */
 .upper-content-box{
@@ -84,7 +79,6 @@ header {
     justify-content: start;
     width: 478px;
     height: 187px;
-    border: #ffffff 1px solid;
 }
 .headline-header h2{
     color: #ffffff;
@@ -100,7 +94,6 @@ header {
     justify-content: start;
     width: 900px;
     height: 64px;
-    border: #ffffff 1px solid;
     margin-top: 65px;
     margin-bottom: 165px;
 }
@@ -113,13 +106,13 @@ header {
     font-weight: 400;
 }
 .video-box {
-    border: #ffffff 1px solid;
     width: 1040px;
     height: 600px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.93);
 }
 .video-box-line-first{
     padding-left: 60px;
@@ -152,6 +145,7 @@ header {
     flex-grow: 0;
 }
 .video-box p{
+    background-color: #000000;
     padding-left: 16px;
     color: #ffffff;
     font-size: 16px;
@@ -161,7 +155,6 @@ header {
     flex-grow: 1;
 }
 .video-description {
-    border: #ffffff 1px solid;
     margin-bottom: 320px;
     display: flex;
     flex-direction: row;
@@ -169,7 +162,6 @@ header {
     justify-content: center;
 }
 .video-description-left{
-    border: 1px solid yellow;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -187,7 +179,6 @@ header {
     color: #ffffff;
 }
 .video-description-right{
-    border: 1px solid yellow;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -226,7 +217,6 @@ header {
 .orange-box-content {
     width: 832px;
     height: 1363px;
-    border: 1px solid white;
     margin: 124px 178px 125px 831px;
     display: flex;
     flex-direction: column;
@@ -234,13 +224,9 @@ header {
     z-index: 12;
     position: relative;
 }
-.text-install-registration>div:only-child {
-    border: 1px solid green;
-}
 .text-install-registration {
     width: 100%;
     height: 380px;
-    border: 1px solid skyblue;
     z-index: 13;
     display: flex;
     flex-direction: column;
@@ -263,6 +249,12 @@ header {
     color: #121212;
     text-transform: uppercase;
 }
+.text-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+}
 .text-registration p {
     font-family: 'ProductSansCrillyc';
     font-size: 34px;
@@ -275,7 +267,6 @@ header {
 .text-secure-box {
     width: 100%;
     height: 390px;
-    border: 1px solid skyblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -307,11 +298,11 @@ header {
 .left-phone{
     z-index: 11;
     position: absolute;
-    border: 1px solid green;
     width: 348px;
     height: 343px;
     background: url('./images/left-phone.png');
-    background-position: top;
+    background-position-y: top;
+    background-position-x: center;
     background-repeat: no-repeat;
     top: 365px;
     left: 0px;
@@ -319,11 +310,11 @@ header {
 .right-phone{
     z-index: 11;
     position: absolute;
-    border: 1px solid green;
     width: 314px;
     height: 324px;
     background: url('./images/right-phone.png');
-    background-position: top;
+    background-position-y: top;
+    background-position-x: center;
     background-repeat: no-repeat;
     bottom: 207px;
     left: 346px;
@@ -331,7 +322,6 @@ header {
 .advantages {
     height: 498px;
     width: 796px;
-    border: 1px solid lightcoral;
     margin-top: 1576px;
     margin-bottom: 406px;
     margin-left: 904px;
@@ -340,7 +330,6 @@ header {
     justify-content: space-between;
 }
 .advantages-question p {
-    border: 1px solid green;
     font-family: 'ProductSansCrillyc';
     font-size: 16px;
     color: #121212;
@@ -349,7 +338,6 @@ header {
     letter-spacing: 1px;
 }
 .advantages-item h1 {
-    border: 1px solid green;
     font-family: 'ProductSansCrillyc';
     font-size: 34px;
     color: #121212;
@@ -358,7 +346,6 @@ header {
     letter-spacing: 0.5px;
 }
 .advantages-item p {
-    border: 1px solid greenyellow;
     font-family: 'ProductSansCrillyc';
     font-size: 16px;
     color: #121212;
@@ -394,7 +381,6 @@ header {
     align-items: flex-end;
 }
 .feedback-box {
-    border: 1px solid green;
     width: 913px;
     height: 510px;
     margin-top: 604px;
@@ -431,6 +417,9 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+.upper-input-row input:focus {
+    border-bottom: 1px solid salmon;
+}
 .upper-input-row input {
     width: 447px;
     font-family: 'ProductSansCrillyc';
@@ -440,7 +429,7 @@ header {
     font-weight: 400;
     letter-spacing: 0.7px;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -452,6 +441,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+.lower-input-row input:focus-within {
+    border-bottom: 1px solid white;
+}
 .lower-input-row input {
     width: 912px;
     font-family: 'ProductSansCrillyc';
@@ -461,7 +453,7 @@ header {
     font-weight: 400;
     letter-spacing: 0.7px;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -489,23 +481,6 @@ button p {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER BLOCK */
 footer {
     background-color: rgba(0, 0, 0, 0.93);
@@ -518,7 +493,6 @@ footer {
     align-items: flex-start;
 }
 .footer-logo-keeper{
-    border: 1px solid red;
     background: url('./images/logo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -533,7 +507,6 @@ footer {
     margin-top: 160px;
 }
 .footer-text p {
-    border: 1px solid yellow;
     font-family: 'ProductSansCrillyc';
     font-size: 16px;
     line-height: 32px;
@@ -542,7 +515,6 @@ footer {
     color: #ffffff;
 }
 .footer-social {
-    border: 1px solid yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
