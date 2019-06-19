@@ -1,6 +1,5 @@
 * {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0 0;
     box-sizing: border-box;
 }
 body {
@@ -18,8 +17,8 @@ header {
     flex-direction: row;
     align-items: center;
 }
-.logo-keeper{
-    background: url('./images/logo.png');
+.logo-keeper {
+    /* background: url('./images/logo.png'); */
     background-repeat: no-repeat;
     background-position: center;
     width: 2.58vw;
@@ -114,10 +113,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: rgba(0, 0, 0, 0.93); */
+    background-color: #000000
 }
 .video-box-line-first{
-    padding-left: 2.34vw;
+    margin-left: 3.51vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -133,7 +132,7 @@ header {
     flex-grow: 1;
 }
 .video-box-line-second {
-    padding-left: 2.34vw;
+    margin-left: 3.51vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -218,9 +217,9 @@ header {
     left: 0vw;
 }
 .orange-box-content {
-    width: 32.5vw;
+    width: 23.125vw;
     height: 53.24vw;
-    margin: 4.84vw  6.95vw 4.88vw 32.5vw;
+    margin: 4.84vw  6.95vw 4.88vw 35.31vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -228,7 +227,6 @@ header {
     position: relative;
 }
 .text-install-registration {
-    width: 100vw;
     height: 14.84vw;
     z-index: 13;
     display: flex;
@@ -243,13 +241,17 @@ header {
     font-weight: 400;
     color: #121212;
 }
+.text-install {
+    margin-top: 2.23vw;
+    margin-bottom: 4.41vw;
+}
 .text-install p {
     font-family: 'Roboto-Bold';
     font-size: 1.33vw;
     letter-spacing: 0.02vw;
-    line-height: 23.43vw;
+    line-height: 2.343vw;
     font-weight: 800;
-    /* color: #121212; */
+    color: #121212;
     text-transform: uppercase;
 }
 .text-registration {
@@ -257,6 +259,8 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+
+    margin-bottom: 23.16vw;
 }
 .text-registration p {
     font-family: 'Roboto-Bold';
@@ -264,16 +268,18 @@ header {
     letter-spacing: 0.02vw;
     line-height: 2.34vw;
     font-weight: 800;
-    /* color: #121212; */
+    color: #121212;
     text-transform: uppercase;
 }
 .text-secure-box {
-    width: 100vw;
     height: 15.23vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     z-index: 13;
+}
+.secure-header {
+    margin-bottom: 7.3vw;
 }
 .secure-header h1{
     font-family: 'Roboto-Bold';
@@ -281,7 +287,7 @@ header {
     letter-spacing: 0.02vw;
     line-height: 2.34vw;
     font-weight: 800;
-    /* color: #121212; */
+    color: #121212;
 }
 .secure-text{
     display: flex;
@@ -294,33 +300,36 @@ header {
     letter-spacing: 0.04vw;
     line-height: 0.94vw;
     font-weight: 400;
-    /* color: #121212; */
+    color: #121212;
+}
+.secure-text p:first-child {
+    margin-bottom: 0.35vw;
 }
 .left-phone{
     z-index: 14;
     position: absolute;
     width: 13.6vw;
     height: 13.4vw;
-    background: url('./images/left-phone.png');
+    /* background: url('./images/left-phone.png');
     background-position-y: top;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    top: 13.68vw;
-    left: -2.9vw;
+    background-size: 100%; */
+    top: 14.2578125vw;
+    right: 12.39vw;
 }
 .right-phone{
-    z-index: 14;
+    z-index: 12;
     position: absolute;
     width: 12.27vw;
     height: 12.66vw;
-    background: url('./images/right-phone.png');
+    /* background: url('./images/right-phone.png');
     background-position-y: top;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    bottom: 12.26vw;
-    left: 11.95vw;
+    background-size: 100%; */
+    top: 32.5vw;
+    left: 12.73437vw;
 }
 .advantages {
     height: 19.45vw;
@@ -335,7 +344,7 @@ header {
 .advantages-question p {
     font-family: 'ProductSansCrillyc';
     font-size: 0.625vw;
-    /* color: #121212; */
+    color: #121212;
     line-height: 0.94vw;
     font-weight: 400;
     letter-spacing: 0.04vw;
@@ -343,7 +352,7 @@ header {
 .advantages-item h1 {
     font-family: 'Roboto-Bold';
     font-size: 1.32vw;
-    /* color: #121212; */
+    color: #121212;
     line-height: 2.34vw;
     font-weight: 800;
     letter-spacing: 0.02vw;
@@ -351,7 +360,7 @@ header {
 .advantages-item p {
     font-family: 'ProductSansCrillyc';
     font-size: 0.625vw;
-    /* color: #121212; */
+    color: #121212;
     line-height: 0.94vw;
     font-weight: 400;
     letter-spacing: 0.04vw;
@@ -365,14 +374,107 @@ header {
     left: 29.92vw;
     top: 91.13vw;
 }
+.white-cascade-box p {
+    font-family: 'Roboto-Bold';
+    font-size: 0.94vw;
+    color: #121212;
+    line-height: 1.41vw;
+    font-weight: 800;
+    letter-spacing: 0.02vw;
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+    margin-top: 4.26vw;
+    margin-left: -0.234vw;
+}
 .gray-cascade-box{
     position: absolute;
     width: 38.28vw;
     height: 25vw;
     background-color: #333333;
     z-index: 10;
-    left: 35.16vw;
+    left: 35.31vw;
     top: 87.15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gray-cascade-box-header {
+    margin-left: 2.34vw;
+    margin-top: 1.72vw;
+}
+.gray-cascade-box-header h2 {
+    font-family: 'Roboto-Medium';
+    font-size: 0.94vw;
+    color: #ffffff;
+    line-height: 1.41vw;
+    font-weight: 800;
+    letter-spacing: 0.02vw;
+}
+.gray-cascade-box-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 29.67vw;
+    margin-left: 2.34vw;
+}
+.upper-icon {
+    background: url('./images/upper-icon-gray-box.png');
+    /* background-color: #6c6c6c; */
+    width: 0.78vw;
+    height: 0.78vw;
+    margin-bottom: 0.625vw;
+}
+.gray-cascade-box-upper p {
+    font-family: 'ProductSansCrillyc';
+    font-size: 0.625;
+    color: #ffffff;
+    line-height: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+}
+.gray-cascade-box-middle  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 29.67vw;
+    margin-left: 2.34vw;
+}
+.middle-icon {
+    background: url('./images/middle-icon-gray-box.png');
+    /* background-color: #a3a3a3; */
+    width: 0.78vw;
+    height: 0.78vw;
+    margin-bottom: 0.625vw;
+}
+.gray-cascade-box-middle p {
+    font-family: 'ProductSansCrillyc';
+    font-size: 0.625;
+    color: #ffffff;
+    line-height: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+}
+.gray-cascade-box-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 29.67vw;
+    margin-left: 2.34vw;
+    margin-bottom: 3.13vw;
+}
+.lower-icon {
+    background: url('./images/lower-icon-gray-box.png');
+    width: 0.70vw;
+    height: 0.78vw;
+    margin-bottom: 0.625vw;
+}
+.gray-cascade-box-lower p {
+    font-family: 'ProductSansCrillyc';
+    font-size: 0.625;
+    color: #ffffff;
+    line-height: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
 }
 /* LOWER */
 .lower-content-box {
@@ -388,7 +490,7 @@ header {
     height: 19.92vw;
     margin-top: 26.72vw;
     margin-right: 29.18vw;
-    margin-left: 35.16vw;
+    margin-left: 35.15vw;
     display: flex;
     flex-direction: column;
 }
@@ -496,19 +598,22 @@ footer {
     align-items: flex-start;
 }
 .footer-logo-keeper{
-    background: url('./images/logo.png');
+    /* background: url('./images/logo.png'); */
     background-repeat: no-repeat;
     background-position: center;
     width: 2.58vw;
     height: 1.25vw;
     margin-top: 7.11vw;
     margin-left: 3.13vw;
+    margin-bottom: 3.20vw;
 }
 .footer-text {
     width: 21.05vw;
     height: 2.3vw;
     margin-top: 6.25vw;
     margin-bottom: 2.54vw;
+    /* margin-left: -5.7vw; */
+    margin-left: -6.7vw;
 }
 .footer-text p {
     font-family: 'ProductSansCrillyc';
@@ -530,8 +635,9 @@ footer {
 .social {
     display: flex;
     flex-direction: row;
+    margin-bottom: 3.20vw;
 }
-.f{
+/* .f{
     width: 0.31vw;
     height: 0.7vw;
     background: url('./images/f.png');
@@ -551,4 +657,4 @@ footer {
     background: url('./images/in.png');
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
