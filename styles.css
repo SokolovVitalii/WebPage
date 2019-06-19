@@ -55,8 +55,50 @@ header {
 }
 
 /* MAIN CONTENT BLOCK */
-/* .main-box {
-} */
+.main-box {
+    position: relative;
+}
+.lines-background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    width: 100%;
+    height: 1px;
+}
+.lines-background div:nth-child(1){
+    margin-bottom: 1.25vw;
+    background: rgba(151, 151, 151, 0.1);
+}
+.lines-background div:nth-child(2){
+    margin-bottom: 1.56vw;
+    background: rgba(151, 151, 151, 0.15);
+}
+.lines-background div:nth-child(3){
+    margin-bottom: 1.88vw;
+    background: rgba(151, 151, 151, 0.2);
+}
+.lines-background div:nth-child(4){
+    margin-bottom: 2.11vw;
+    background: rgba(151, 151, 151, 0.3);
+}
+.lines-background div:nth-child(5){
+    margin-bottom: 2.46vw;
+    background: rgba(151, 151, 151, 0.5);
+}
+.lines-background div:nth-child(6){
+    margin-bottom: 2.5vw;
+    background: rgba(151, 151, 151, 0.7);
+}
+.lines-background div:nth-child(7){
+    margin-bottom: 2.5vw;
+    background: rgba(151, 151, 151, 0.9);
+}
 /* UPPER */
 .upper-content-box{
     /* background-color: rgba(0, 0, 0, 0.93); */
@@ -540,9 +582,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.upper-input-row input:focus {
-    border-bottom: 1px solid salmon;
-}
 .upper-input-row input {
     width: 17.46vw;
     font-family: 'ProductSansCrillyc';
@@ -556,8 +595,9 @@ header {
     border: none;
     border-bottom: 1px solid #dbdbdb;
 }
-.upper-input-row input:focus-within {
-    border-bottom: 0.04vw solid white;
+.upper-input-row input:focus {
+    outline: none;
+    border-color: #f76612;
 }
 .lower-input-row{
     width: 35.66vw;
@@ -567,8 +607,9 @@ header {
     align-items: center;
     justify-content: center;
 }
-.lower-input-row input:focus-within {
-    border-bottom: 0.04vw solid white;
+.lower-input-row input:focus {
+    outline: none;
+    border-color: #f76612;
 }
 .lower-input-row input {
     width: 35.63vw;
@@ -597,6 +638,9 @@ button {
     background-color: #f76612;
     border: none;
 }
+button:focus {
+    outline-color: #dbdbdb;
+}
 button p {
     font-family: 'ProductSansCrillyc';
     font-size: 0.625vw;
@@ -609,7 +653,6 @@ button p {
 
 /* FOOTER BLOCK */
 footer {
-    /* background-color: rgba(0, 0, 0, 0.93); */
     height: 11.09vw;
     bottom: 0vw;
     display: flex;
