@@ -4,14 +4,12 @@
 }
 body {
     background-color: #121212;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 /* HEADER BLOCK */
 header {
-    width: 100vw;
     /* background-color: rgba(0, 0, 0, 0.93); */
     display: block;
     flex-direction: row;
@@ -21,11 +19,14 @@ header {
     /* background: url('./images/logo.png'); */
     background-repeat: no-repeat;
     background-position: center;
-    width: 2.58vw;
+    width: 3.58vw;  /* 2.58vw по линейке макета*/
     height: 1.25vw;
     float: left;
     margin-left: 3.21vw;
     margin-top: 2.61vw;
+}
+.logo-keeper:hover{
+    background-color: #f76612;
 }
 .nav-keeper {
     float: right;
@@ -55,11 +56,9 @@ header {
 
 /* MAIN CONTENT BLOCK */
 .main-box {
-    width: 100vw;
 }
 /* UPPER */
 .upper-content-box{
-    width: 100vw;
     /* background-color: rgba(0, 0, 0, 0.93); */
     display: flex;
     justify-content: center;
@@ -199,7 +198,6 @@ header {
 }
 /* MIDDLE */
 .middle-content-box {
-    width: 100vw;
     background-color: #edeef0;
     position: relative;
     display: flex;
@@ -308,8 +306,8 @@ header {
 .left-phone{
     z-index: 14;
     position: absolute;
-    /* width: 13.6vw; */
-    /* height: 13.4vw; */
+    width: 13.6vw;
+    height: 13.4vw;
     /* background: url('./images/left-phone.png');
     background-position-y: top;
     background-position-x: center;
@@ -328,8 +326,8 @@ header {
 .right-phone{
     z-index: 12;
     position: absolute;
-    /* width: 12.27vw; */
-    /* height: 12.66vw; */
+    width: 12.27vw;
+    height: 12.66vw;
     /* background: url('./images/right-phone.png');
     background-position-y: top;
     background-position-x: center;
@@ -492,8 +490,6 @@ header {
 }
 /* LOWER */
 .lower-content-box {
-    width: 100vw;
-    /* background-color: rgba(0, 0, 0, 0.93); */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -552,6 +548,9 @@ header {
     border: none;
     border-bottom: 1px solid #dbdbdb;
 }
+.upper-input-row input:focus-within {
+    border-bottom: 0.04vw solid white;
+}
 .lower-input-row{
     width: 35.66vw;
     flex-grow: 1;
@@ -604,7 +603,6 @@ button p {
 footer {
     /* background-color: rgba(0, 0, 0, 0.93); */
     height: 11.09vw;
-    width: 100vw;
     bottom: 0vw;
     display: flex;
     flex-direction: row;
@@ -613,13 +611,20 @@ footer {
 }
 .footer-logo-keeper{
     /* background: url('./images/logo.png'); */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 2.58vw;
-    height: 1.25vw;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    width: 3.58vw; /* 2.58vw по линейке макета*/
+    /* height: 1.25vw; */
     margin-top: 7.11vw;
     margin-left: 3.13vw;
     margin-bottom: 3.20vw;
+}
+.footer-logo-keeper a {
+    width: 2.58vw;
+    height: 1.25vw;
+}
+.footer-logo-keeper:hover{
+    background-color: #f76612;
 }
 .footer-text {
     width: 21.05vw;
