@@ -55,8 +55,8 @@ header {
 }
 
 /* MAIN CONTENT BLOCK */
-.main-box {
-}
+/* .main-box {
+} */
 /* UPPER */
 .upper-content-box{
     /* background-color: rgba(0, 0, 0, 0.93); */
@@ -115,7 +115,7 @@ header {
     background-color: #000000
 }
 .video-box-line-first{
-    margin-left: 2.51vw;
+    margin-left: 4vw;    /* 2.51vw по линейке макета*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -131,7 +131,7 @@ header {
     flex-grow: 1;
 }
 .video-box-line-second {
-    margin-left: 2.51vw;
+    margin-left: 4vw;    /* 2.51vw по линейке макета*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -140,6 +140,8 @@ header {
 }
 .play-icon {
     background: url('./images/play-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
     width: 0.31vw;
     height: 0.63vw;
     flex-grow: 0;
@@ -431,6 +433,8 @@ header {
 }
 .upper-icon {
     background: url('./images/upper-icon-gray-box.png');
+    background-position: center;
+    background-repeat: no-repeat;
     /* background-color: #6c6c6c; */
     width: 0.78vw;
     height: 0.78vw;
@@ -453,6 +457,8 @@ header {
 }
 .middle-icon {
     background: url('./images/middle-icon-gray-box.png');
+    background-position: center;
+    background-repeat: no-repeat;
     /* background-color: #a3a3a3; */
     width: 0.78vw;
     height: 0.78vw;
@@ -476,6 +482,8 @@ header {
 }
 .lower-icon {
     background: url('./images/lower-icon-gray-box.png');
+    background-position: center;
+    background-repeat: no-repeat;
     width: 0.70vw;
     height: 0.78vw;
     margin-bottom: 0.625vw;
@@ -655,6 +663,9 @@ footer {
     display: flex;
     flex-direction: row;
     margin-bottom: 3.20vw;
+}
+.social:hover {
+    background-color: #f76612;
 }
 /* .f{
     width: 0.31vw;
