@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1920px) {
+    .headline {
+        margin-left: 30.21vw;
+    }
+    .video-box {
+        margin-left: 27.09vw;
+    }
+    .video-description {
+        margin-left: 30.21vw;
+    }
+    .orange-box {
+        width: 85.78vw;
+        height: 63vw;
+    }
+    /* .orange-box-content {
+        margin-top: 4.84vw;
+        margin-bottom: 4.88vw;
+        margin-left: 30.21vw;
+        margin-right: 11.51vw;
+    } */
+    .advantages {
+        margin-top: 61.56vw;
+        margin-bottom: 15.86vw;
+        margin-left: 35.31vw;
+    }
+}
+@media only screen and (max-width: 1680px) {
+    .orange-box {
+        width: 85.71vw;
+        height: 63vw;
+    }
+    /* .orange-box-content {
+        margin-top: 4.84vw;
+        margin-bottom: 4.88vw;
+        margin-left: 23.04vw;
+        margin-right: 11.51vw;
+    } */
+}
+@media only screen and (max-width: 1440px) {
+    .orange-box {
+        width: 94.44vw;
+        height: 63vw;
+    }
+    /* .orange-box-content {
+        margin-top: 4.84vw;
+        margin-bottom: 4.88vw;
+        margin-right: 9.79vw;
+        margin-left: 0vw;
+    } */
+}
+@media only screen and (max-width: 1366px) {
+    .orange-box {
+        width: 94.07vw;
+        height: 63vw;
+    }
+}
+@media only screen and (max-width: 1281px) {
+    .orange-box {
+        width: 93.75vw;
+        height: 63vw;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .orange-box {
+        width: 100%;
+        height: 63vw;
+    }
+}
