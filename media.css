@@ -1,12 +1,212 @@
 @media only screen and (max-width: 1920px) {
+    /* UPPER BLOCK */
+    .headline {
+        margin-right: 440px;
+    }
+    .video-box {
+        margin-right: 360px;
+    }
+    .video-description {
+        margin-right: 440px;
+    }
+    /* MIDDLE BOX */
+    .orange-box {
+        width: 1647px;
+    }
+    .orange-box-content {
+        margin-right: 749px;
+    }
+    .advantages {
+        margin-right: 545px;
+    }
+    .white-cascade-box{
+        right: 444px;
+    }
+    .gray-cascade-box{
+        right: 360px;
+    }
+    .feedback-box {
+        margin-right: 427px;
+    }
+    .middle {
+        /* margin-right: 801px; */
+    }
 }
 @media only screen and (max-width: 1680px) {
+    /* UPPER BLOCK */
+    .headline {
+        margin-right: 320px;
+    }
+    .video-box {
+        margin-right: 240px;
+    }
+    .video-description {
+        margin-right: 320px;
+    }
+    /* MIDDLE BOX */
+    .orange-box {
+        width: 1440px;
+    }
+    .orange-box-content {
+        margin-right: 628px;
+    }
+    .advantages {
+        margin-right: 424px;
+    }
+    .white-cascade-box{
+        right: 324px;
+    }
+    .gray-cascade-box{
+        right: 240px;
+    }
+    .feedback-box {
+        margin-right: 307px;
+    }
 }
 @media only screen and (max-width: 1440px) {
+    /* UPPER BLOCK */
+    .headline {
+        margin-right: 418px;
+    }
+    .headline-header{
+        width: 478px;
+    }
+    .headline-text {
+        width: 562px;
+    }
+    .video-box {
+        margin-right: 80px;
+    }
+    .video-description {
+        margin-right: 80px;
+    }
+    /* MIDDLE BOX */
+    .orange-box {
+        width: 1360px;
+    }
+    .orange-box-content {
+        margin-right: 388px;
+    }
+    .advantages {
+        margin-right: 184px;
+    }
+    .white-cascade-box{
+        right: 84px;
+    }
+    .gray-cascade-box{
+        right: 0px;
+    }
+    .feedback-box {
+        margin-right: 67px;
+    }
 }
 @media only screen and (max-width: 1366px) {
+    /* UPPER BLOCK */
+    .headline {
+        margin-right: 418px;
+    }
+    .headline-header{
+        width: 478px;
+    }
+    .headline-text {
+        width: 562px;
+    }
+    .video-box {
+        margin-right: 80px;
+    }
+    .video-description {
+        margin-right: 80px;
+    }
+    /* MIDDLE BOX */
+    .orange-box {
+        width: 1360px;
+        left: -80px;
+    }
+    .orange-box-content {
+        margin-right: 388px;
+    }
+    .advantages {
+        margin-right: 184px;
+    }
+    .white-cascade-box{
+        right: 84px;
+    }
+    .gray-cascade-box{
+        right: 0px;
+    }
+    .feedback-box {
+        margin-right: 67px;
+    }
 }
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 1280px) {
+     /* UPPER BLOCK */
+    .headline {
+        margin-right: 418px;
+    }
+    .headline-header{
+        width: 478px;
+    }
+    .headline-text {
+        width: 562px;
+    }
+    .video-box {
+        margin-right: 80px;
+    }
+    .video-description {
+        margin-right: 80px;
+    }
+    /* MIDDLE BOX */
+    .orange-box {
+        width: 100%;
+        left: -80px;
+    }
+    .orange-box-content {
+        margin-right: 388px;
+    }
+    .advantages {
+        margin-right: 184px;
+    }
+    .white-cascade-box{
+        right: 84px;
+    }
+    .gray-cascade-box{
+        right: 0px;
+    }
+    .feedback-box {
+        margin-right: 67px;
+    }
 }
 @media only screen and (max-width: 1024px) {
+    /* UPPER BLOCK */
+    .headline {
+        margin-right: 320px;
+    }
+    .video-box {
+        margin-right: 240px;
+    }
+    .video-description {
+        margin-right: 320px;
+    }
+    /* MIDDLE BOX */
+    .orange-box {
+        width: 100%;
+        left: -80px;
+    }
+    .orange-box-content {
+        margin-right: 388px;
+    }
+    .advantages {
+        margin-right: 184px;
+    }
+    .white-cascade-box{
+        width: 975px;
+        right: 0px;
+    }
+    .gray-cascade-box{
+        width: 850px;
+        right: 0px;
+    }
+    .feedback-box {
+        margin-right: 67px;
+    }
 }

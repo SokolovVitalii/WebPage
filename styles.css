@@ -278,7 +278,6 @@ header {
     justify-content: space-between;
     z-index: 12;
     position: relative;
-    border: 2px solid white;
 }
 .text-install-registration {
     height: 380px;
@@ -369,7 +368,6 @@ header {
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    border: 2px solid white;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -388,7 +386,6 @@ header {
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    border: 2px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -398,7 +395,7 @@ header {
     height: 12.66vw;
 } */
 .advantages {
-    width: 792px;
+    width: 796px;
     height: 498px;
     /* margin-top: 1576px; */
     margin-bottom: 406px;
@@ -721,21 +718,34 @@ footer {
 .social:hover {
     background-color: #f76612;
 }
-left{
+.left{
     width: 66px;
     height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    border: 1px solid white;
 }
 .middle {
-    width: 2220px;
+    /* width: 2220px; */
+    border: 1px solid white;
+    width: 539px;
     height: 59px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 927px;
+    align-items: center;
+    /* margin-right: 180px; */
 }
-right {
+.right {
     width: 114px;
     height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+    border: 1px solid white;
 }
 .footer-text {
     width: 569px;
@@ -745,6 +755,7 @@ right {
     /* top: 1274px; */
     /* right: 1121px; */
     /* position: absolute; */
+    /* margin-right: 927px; */
 }
 .footer-text p {
     font-family: 'ProductSansCrillyc';
