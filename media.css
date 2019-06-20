@@ -28,9 +28,6 @@
     .feedback-box {
         margin-right: 427px;
     }
-    .middle {
-        /* margin-right: 801px; */
-    }
 }
 @media only screen and (max-width: 1680px) {
     /* UPPER BLOCK */
@@ -48,7 +45,7 @@
         width: 1440px;
     }
     .orange-box-content {
-        margin-right: 628px;
+        margin-right: 648px;
     }
     .advantages {
         margin-right: 424px;
@@ -76,6 +73,12 @@
     }
     .video-box {
         margin-right: 80px;
+    }
+    .video-box-line-first{
+        margin-left: 140px;
+    }
+    .video-box-line-second{
+        margin-left: 140px;
     }
     .video-description {
         margin-right: 80px;
@@ -150,15 +153,22 @@
         width: 562px;
     }
     .video-box {
-        margin-right: 80px;
+        margin-right: 0px;              /*!!!!!!!! по макету 80px */
+        width: 1024px;
+    }
+    .video-box-line-first{
+    margin-left: 60px;
+    }
+    .video-box-line-second{
+    margin-left: 60px;
     }
     .video-description {
         margin-right: 80px;
     }
     /* MIDDLE BOX */
     .orange-box {
-        width: 100%;
-        left: -80px;
+        width: 1025px;
+        left: 0px;
     }
     .orange-box-content {
         margin-right: 388px;
@@ -167,36 +177,41 @@
         margin-right: 184px;
     }
     .white-cascade-box{
+        /* width: 975px; */
         right: 84px;
     }
     .gray-cascade-box{
         right: 0px;
+        /* width: 850px; */
     }
     .feedback-box {
-        margin-right: 67px;
+        margin-right: 69px;
     }
 }
 @media only screen and (max-width: 1024px) {
     /* UPPER BLOCK */
     .headline {
-        margin-right: 320px;
+        margin-right: 238px;
     }
     .video-box {
-        margin-right: 240px;
+        margin-right: 0px;
+        width: 100%;
     }
     .video-description {
-        margin-right: 320px;
+        margin-right: 0px;              /* По макету 50-60px */
+        flex-direction: column;
+        width: 802px;
     }
     /* MIDDLE BOX */
     .orange-box {
         width: 100%;
-        left: -80px;
+        left: 0px;
     }
     .orange-box-content {
-        margin-right: 388px;
+        margin-right: 208px;
     }
     .advantages {
-        margin-right: 184px;
+        margin-right: 0px;             /* По макету 50-60px */
     }
     .white-cascade-box{
         width: 975px;
@@ -207,6 +222,7 @@
         right: 0px;
     }
     .feedback-box {
-        margin-right: 67px;
+        margin-right: 0px;
+        width: 852px;
     }
 }
