@@ -36,7 +36,6 @@ header {
     margin-bottom: 246px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 .middle-item {
     margin-left: 47px;
@@ -219,7 +218,6 @@ header {
 }
 .video-description-mobile p {
     color: #ffffff;
-    width: 802px;
 }
 .video-description {
     margin-bottom: 320px;
@@ -388,7 +386,7 @@ header {
     justify-content: center; */
     display: flex;
     align-items: baseline;
-    justify-content: center;
+    justify-content: flex-start;
 }
 /* .left-phone img{
     width: 13.6vw;
@@ -406,7 +404,7 @@ header {
     justify-content: center; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 /* .right-phone img{
     width: 12.27vw;
@@ -793,11 +791,10 @@ footer {
 .footer-social {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     width: 114px;
+    margin-right: 80px;
     /* height: 19px; */
-    /* margin-right: 80px; */
     /* margin-top: 183px; */
 }
 .social {

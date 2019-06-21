@@ -224,6 +224,13 @@
 }
 @media only screen and (max-width: 1024px) {
     /* UPPER BLOCK */
+    .logo-keeper {
+        margin-left: 40px;
+    }
+    .nav-keeper {
+        float: right;
+        margin-right: 50px;
+    }
     .headline {
         margin-right: 238px;
     }
@@ -245,6 +252,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        margin-right: 160px;
     }
     /* MIDDLE BOX */
     .orange-box {
@@ -258,16 +266,14 @@
         margin-right: 47px;             /* По макету 50-60px */
     }
     .white-cascade-box{
-        width: 927px;
         right: 48px;
     }
     .gray-cascade-box{
-        width: 856px;
         right: 0px;
     }
     .feedback-box {
         margin-right: 0px;
-        width: 852px;
+        width: calc(852px - 172px);
     }
     .feedback-upper-line {
         width: calc(913px - 61px);
@@ -291,16 +297,50 @@
         width: calc(913px - 61px);
     }
     /* FOOTER */
-
+    .footer-logo-keeper a {
+        margin-left: 40px;
+    }
+    .footer-social {
+        margin-right: 50px;
+    }
 }
 @media only screen and (max-width: 1001px) {
         /* UPPER BLOCK */
-
+        .upper-content-box {
+            align-items: flex-start;
+        }
+        .headline {
+            margin-right: 0px;
+            margin-left: 40px;
+        }
+        .video-box-line-first{
+            margin-left: 40px;
+        }
+            .video-box-line-second{
+            margin-left: 40px;
+        }
+        .video-description-mobile {
+            margin-left: 40px;
+            margin-right: 0px;
+        }
         /* MIDDLE BOX */
-
+        .middle-content-box {
+            align-items: flex-start;
+        }
+        .orange-box-content {
+            margin-right: 0px;
+            margin-left: 40px;
+        }
+        .advantages {
+            margin-right: 0px;
+            margin-left: 40px;
+        }
         /* LOWER BOX */
+        /* .lower-content-box {
+            align-items: flex-start;
+        } */
         .white-cascade-box{
-            width: 500px;
+            width: 49.95vw;
             height: 828px;
             right: 0px;
             top: -286px;
@@ -333,9 +373,10 @@
             margin-top: 60px;
         }
         .gray-cascade-box{
-            width: 500px;
+            width: 49.95vw;
             height: 828px;
-            right: 500px;
+            right: 0px;
+            left: 0px;
             top: -286px;
         }
         .gray-cascade-box-upper {
@@ -347,5 +388,12 @@
         .gray-cascade-box-lower {
             margin-right: 40px;
         }
+        .feedback-box {
+        width: calc(852px - 87px);
+        margin-left: 40px;
+        }
         /* FOOTER */
+        footer {
+            flex-direction: column;
+        }
 }
