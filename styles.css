@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    max-width: 2600px;
 }
 /* HEADER BLOCK */
 header {
@@ -108,7 +109,8 @@ header {
     align-items: flex-end;
     flex-direction: column;
     position: relative;
-    border: none
+    border: none;
+    overflow: hidden;
 }
 .headline {
     display: flex;
@@ -158,16 +160,18 @@ header {
     margin-right: 680px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #000000
 }
 .video-box-line-first{
     margin-left: 60px;    /* 2.51vw по линейке макета*/
+    margin-top: 244px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
+    min-width: 364px;
 }
 .video-box h1{
     color: #ffffff;
@@ -184,6 +188,7 @@ header {
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
+    min-width: 130px;
 }
 .play-icon {
     background: url('./images/play-icon.png');
@@ -202,6 +207,19 @@ header {
     line-height: 32px;
     letter-spacing: 0.7px;
     flex-grow: 1;
+}
+.video-description-mobile {
+    display: none;
+    height: 224px;
+    margin-bottom: 248px;
+}
+.video-description-mobile p:nth-child(2) {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.video-description-mobile p {
+    color: #ffffff;
+    width: 802px;
 }
 .video-description {
     margin-bottom: 320px;
@@ -563,6 +581,8 @@ header {
     /* margin-left: 900px; */
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .feedback-upper-line {
     width: 913px;
@@ -690,13 +710,14 @@ footer {
     width: 66px;                    /*!!!!!!!!!!!!!!!! 2.58vw по линейке макета*/
     /* height: 20px; */
     /* margin-top: 182px; */
-    margin-left: 80px;
+    /* margin-left: 80px; */
     /* margin-bottom: 82px; */
 }
-/* .footer-logo-keeper a {
-    width: 2.58vw;
-    height: 1.25vw;
-} */
+.footer-logo-keeper a {
+    margin-left: 80px;
+    /* width: 2.58vw;
+    height: 1.25vw; */
+}
 .footer-logo-keeper:hover{
     background-color: #f76612;
 }
@@ -707,7 +728,7 @@ footer {
     align-items: center;
     width: 114px;
     /* height: 19px; */
-    margin-right: 80px;
+    /* margin-right: 80px; */
     /* margin-top: 183px; */
 }
 .social {
@@ -725,27 +746,16 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     flex-grow: 1;
-    border: 1px solid white;
 }
 .middle {
     /* width: 2220px; */
-    border: 1px solid white;
     width: 539px;
     height: 59px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    /* margin-right: 180px; */
-}
-.right {
-    width: 114px;
-    height: 19px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-grow: 1;
-    border: 1px solid white;
+    margin-right: 180px;
 }
 .footer-text {
     width: 569px;
@@ -764,4 +774,21 @@ footer {
     font-weight: 400;
     letter-spacing: 0.7px;
     color: #ffffff;
+}
+.right {
+    width: 114px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.f {
+    margin-right: 37px;
+}
+.i{
+    margin-right: 38px;
+}
+.in {
+    margin-right: 80px;
 }
