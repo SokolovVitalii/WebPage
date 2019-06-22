@@ -712,3 +712,23 @@
     }
     /* FOOTER BLOCK */
 }
+@media only screen and (max-width: 569px) {
+    /* UPPER BLOCK */
+    .headline {
+        margin-left: 71px;
+        margin-right: 16px;
+    }
+    .video-box {
+        width: 304px;
+        margin-left: 71px;
+    }
+    .video-description-mobile-mini {
+        margin-left: 71px;
+        margin-right: 16px;
+    }
+    .orange-box-content {
+        width: 288px;
+        margin-left: 71px;
+        margin-right: 17px;
+    }
+}
