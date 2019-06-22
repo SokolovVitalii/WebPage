@@ -466,6 +466,12 @@ header {
     justify-content: flex-start;
     flex-wrap: nowrap;
 }
+.white-box-text-tablet {
+    display: none;
+}
+.white-box-text-mobile{
+    display: none;
+}
 .white-cascade-box a {
     font-family: 'Roboto-Medium';
     font-size: 24px;
@@ -557,6 +563,12 @@ header {
 .gray-cascade-box-header {
     margin-left: 40px;
     margin-top: 60px;
+}
+.gray-box-text-tablet {
+    display: none;
+}
+.gray-box-text-mobile {
+    display: none;
 }
 .gray-cascade-box-header a {
     font-family: 'Roboto-Medium';
