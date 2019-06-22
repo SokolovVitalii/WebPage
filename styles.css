@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #121212;
+    background-color: darkolivegreen;
+    /* background-color: #121212; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -25,6 +26,7 @@ header {
     float: left;
     margin-left: 80px;
     margin-top: 67px;
+    margin-bottom: 153px;
 }
 .logo-keeper:hover{
     background-color: #f76612;
@@ -33,7 +35,7 @@ header {
     float: right;
     margin-right: 79px;
     margin-top: 60px;
-    margin-bottom: 246px;
+    margin-bottom: 153px;
     display: flex;
     flex-direction: row;
 }
@@ -132,6 +134,19 @@ header {
     line-height: 64px;
     letter-spacing: 1px;
     font-weight: 800;
+    text-transform: uppercase;
+}
+.headline-header-mobile {
+    display: none;
+}
+.headline-header-mobile h2{
+    color: #ffffff;
+    font-size: 44px;
+    font-family: 'Roboto-Bold';
+    line-height: 64px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .headline-text {
     display: flex;
@@ -142,6 +157,17 @@ header {
     margin-bottom: 165px;
 }
 .headline-text p{
+    color: #ffffff;
+    font-size:  16px;
+    font-family: 'ProductSansCrillyc';
+    line-height: 32px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+}
+.headline-text-mobile {
+    display: none;
+}
+.headline-text-mobile p{
     color: #ffffff;
     font-size:  16px;
     font-family: 'ProductSansCrillyc';
@@ -169,6 +195,9 @@ header {
     justify-content: flex-end;
     align-items: center;
     min-width: 364px;
+}
+.video-box-line-first-tablet{
+    display: none;
 }
 .video-box h1{
     color: #ffffff;
@@ -209,6 +238,12 @@ header {
     display: none;
     margin-bottom: 248px;
 }
+.video-description-mobile-mini{
+    display: none;
+    margin-bottom: 248px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
 .video-description-mobile p {
     font-family: 'ProductSansCrillyc';
     font-size:  16px;
@@ -221,8 +256,17 @@ header {
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.video-description-mobile p {
+.video-description-mobile-mini p {
+    font-family: 'ProductSansCrillyc';
+    font-size:  16px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
     color: #ffffff;
+}
+.video-description-mobile-mini p:nth-child(2) {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .video-description {
     margin-bottom: 320px;
@@ -298,6 +342,9 @@ header {
     justify-content: flex-start;
     z-index: 12;
     position: relative;
+}
+.mobile-on {
+    display: none;
 }
 .text-install-registration {
     height: 380px;
