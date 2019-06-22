@@ -160,10 +160,10 @@
         width: calc(100% - 120px); */
     }
     .video-box-line-first{
-    margin-left: 140px;
+    margin-left: 90px;          /*По макету 140px!!! */
     }
     .video-box-line-second{
-    margin-left: 140px;
+    margin-left: 90px;          /*По макету 140px!!! */
     }
     .video-description {
         margin-right: 80px;
@@ -181,10 +181,10 @@
     }
     .white-cascade-box{
         /* width: 975px; */
-        width: calc(1020px - 124px);
+        /* width: calc(1020px - 124px); */
     }
     .gray-cascade-box{
-        width:calc(980px - 124px);
+        /* width:calc(980px - 124px); */
         /* width: 850px; */
     }
     .feedback-box {
@@ -208,9 +208,20 @@
         margin-right: 80px;
         width: calc(100% - 160px);
     }
+    .left-phone {
+    overflow: hidden;
+    }
+    .right-phone {
+    overflow: hidden;
+    }
 }
 @media only screen and (max-width: 1140px) {
-     /* UPPER BLOCK */
+    .video-box-line-first{
+        margin-left: 140px;
+    }
+    .video-box-line-second{
+        margin-left: 140px;
+    }
     .video-box {
         margin-right: 40px;
         width: calc(100% - 80px);
@@ -221,6 +232,16 @@
         .video-box-line-second{
         width
     } */
+    .white-cascade-box{
+        width: calc(1020px - 40px);
+        right: 0px;
+    }
+    .gray-cascade-box{
+        width:calc(980px - 124px);
+    }
+    .orange-box {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 1024px) {
     /* UPPER BLOCK */
@@ -232,17 +253,17 @@
         margin-right: 50px;
     }
     .headline {
-        margin-right: 238px;
+        margin-right: 290px;
     }
     .video-box {
         margin-right: 0px;
         width:  100%
     }
     .video-box-line-first{
-        margin-left: 238px;
+        margin-left: 172px;
     }
         .video-box-line-second{
-        margin-left: 238px;
+        margin-left: 172px;
     }
     .video-description {
         display: none;
@@ -252,7 +273,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-right: 160px;
+        margin-right: 50px;
     }
     /* MIDDLE BOX */
     .orange-box {
@@ -260,20 +281,29 @@
         left: 0px;
     }
     .orange-box-content {
-        margin-right: 256px;            /* По макету 256px */
+        margin-right: 256px;       /* По макету 256px */
+    }
+    .text-secure-box {
+        margin-top: 593px;
+    }
+    .left-phone {
+        left: -74px;
+    }
+    .right-phone {
+        left: 326px;
+        top: 805px;
     }
     .advantages {
-        margin-right: 47px;             /* По макету 50-60px */
+        margin-right: 55px;
     }
     .white-cascade-box{
-        right: 48px;
     }
     .gray-cascade-box{
         right: 0px;
     }
     .feedback-box {
         margin-left: 41px;
-        margin-right: 47px;
+        margin-right: 0px;
         width: calc(852px - 172px);
         justify-content: flex-start;
     }
@@ -349,13 +379,29 @@
     .middle-content-box {
         align-items: flex-start;
     }
+    .orange-box {
+        width: calc(100% - 40px);
+        height: 1402px;
+    }
     .orange-box-content {
         margin-right: 0px;
         margin-left: 40px;
+        height: 1133px;
+    }
+    .text-secure-box {
+        margin-top: 311px;
+    }
+    .left-phone {
+        left: 330px;
+        top: 204px;
+    }
+    .right-phone {
+        left: 330px;
+        top: 627px;
     }
     .advantages {
         margin-right: 0px;
-        margin-left: 41px;
+        margin-left: 40px;
     }
     /* LOWER BOX */
     .lower-content-box {
@@ -403,12 +449,16 @@
     }
     .gray-cascade-box-upper {
         margin-right: 40px;
+        margin-left: 40px;
     }
     .gray-cascade-box-middle {
         margin-right: 40px;
+        margin-left: 40px;
     }
     .gray-cascade-box-lower {
         margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 60px;
     }
     .feedback-box {
         width: 671px;
@@ -424,8 +474,7 @@
     .feedback-middle-line {
         width: 671px;
         justify-content: flex-start;
-        flex-direction: column;.
-        border: 1px solid whitesmoke;
+        flex-direction: column;
     }
     .feedback-lower-line {
         margin-top: 80px;

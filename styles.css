@@ -138,8 +138,6 @@ header {
     align-items: center;
     justify-content: start;
     width: 900px;
-    /* width: 35.15vw; */
-    /* height: 2.5vw; */
     margin-top: 65px;
     margin-bottom: 165px;
 }
@@ -211,6 +209,14 @@ header {
     display: none;
     margin-bottom: 248px;
 }
+.video-description-mobile p {
+    font-family: 'ProductSansCrillyc';
+    font-size:  16px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    color: #ffffff;
+}
 .video-description-mobile p:nth-child(2) {
     margin-bottom: 50px;
     margin-top: 50px;
@@ -240,7 +246,6 @@ header {
     font-size:  16px;
     line-height: 32px;
     letter-spacing: 0.7px;
-    line-height: 32px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -290,7 +295,7 @@ header {
     margin: 0px 1068px 250px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     z-index: 12;
     position: relative;
 }
@@ -327,7 +332,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
-
     margin-bottom: 593px;
 }
 .text-registration p {
@@ -345,9 +349,10 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     z-index: 13;
+    margin-top: 593px;
 }
 .secure-header {
-    margin-bottom: 187px;
+    margin-bottom: 191px;
 }
 .secure-header h1{
     font-family: 'Roboto-Bold';
@@ -388,8 +393,8 @@ header {
     justify-content: flex-start;
 }
 /* .left-phone img{
-    width: 13.6vw;
-    height: 13.4vw;
+    width: 348px;
+    height: 343px;
 } */
 .right-phone{
     z-index: 12;
@@ -406,11 +411,11 @@ header {
     justify-content: flex-start;
 }
 /* .right-phone img{
-    width: 12.27vw;
-    height: 12.66vw;
+    width: 335px;
+    height: 343px;
 } */
 .advantages {
-    width: 796px;
+    /* width: 796px; */
     height: 498px;
     /* margin-top: 1576px; */
     margin-bottom: 406px;
@@ -546,12 +551,12 @@ header {
     right: 680px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: nowrap;
 }
 .gray-cascade-box-header {
-    margin-left: 60px;
-    margin-top: 44px;
+    margin-left: 40px;
+    margin-top: 60px;
 }
 .gray-cascade-box-header a {
     font-family: 'Roboto-Medium';
@@ -567,6 +572,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 60px;
+    margin-top: 56px;
 }
 .upper-icon {
     background: url('./images/upper-icon-gray-box.png');
@@ -590,6 +596,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 60px;
+    margin-top: 60px;
 }
 .middle-icon {
     background: url('./images/middle-icon-gray-box.png');
@@ -613,6 +620,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 60px;
+    margin-top: 60px;
     margin-bottom: 80px;
 }
 .lower-icon {
